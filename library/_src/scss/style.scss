@@ -1,0 +1,29 @@
+/******************************************************************
+  STYLESHEET: scss/style.scss
+******************************************************************/
+
+/* Partials
+--------------------------------------------- */
+// normalize: http://necolas.github.io/normalize.css/
+@import "partials/normalize";
+
+// Import our variables
+@import "partials/variables";
+
+// Import our functions
+@import "partials/functions";
+
+// Import our mixins
+@import "partials/mixins";
+
+// Import all base styles
+@import "partials/base";
+
+/* Vendors
+--------------------------------------------- */
+// Import 3rd party scss/css here
+@import "vendor/vendor";
+
+/* Modules
+--------------------------------------------- */
+@import "modules/header";

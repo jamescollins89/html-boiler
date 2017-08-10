@@ -1,0 +1,16 @@
+/******************************************************************
+  STYLESHEET: scss/partials/_functions.scss
+******************************************************************/
+
+/*********************
+RESPONSIVE HELPER FUNCTION
+
+Example:
+width: calc-percent(650px, 1000px);
+will compile to:
+width: 65%;
+*********************/
+
+@function calc-percent($target, $container) {
+  @return ($target / $container) * 100%;
+}
